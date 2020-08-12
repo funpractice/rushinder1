@@ -82,21 +82,12 @@ p {
 }
 
 /* Title Image */
-@media (min-width : 1100px){
-  .title-image , .title-image1{
-    margin-left: 30%;
-  }
-}
 
 .title-image {
-  width: 85%;
-  text-align: center;
-  border-radius: 10%;
-}
-.title-image1 {
   width: 60%;
-  text-align: center;
-  border-radius: 10%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section */
@@ -129,21 +120,15 @@ p {
 }
 
 .testimonial-text {
-  font-size: 2rem;
+  font-size: 3rem;
   line-height: 1.5;
 }
 
 .testimonial-image {
-  width: 72px;
-  border-radius: 30%;
+  width: 10%;
+  border-radius: 100%;
   margin: 20px;
 }
-.testimonial-image1 {
-  width: 100px;
-  border-radius: 30%;
-  margin: 20px;
-}
-
 
 
 #press {
@@ -154,7 +139,6 @@ p {
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
-  text-align: center;
 }
 
 /* Pricing Section */
